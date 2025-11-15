@@ -1,0 +1,16 @@
+!! Sun Micro
+#define base_bg	#d7d7d7
+#define base_fg #010101
+
+!!Colors
+#define pink_bg #b24d7a
+#define active_bg #738ac5
+#define active_fg #f0f0f0
+
+Emwm*ws0*image: /home/cam/desk/sun_tile.xpm
+Emwm*background:	base_bg
+Emwm*foreground:	base_fg
+Emwm*activeBackground:	active_bg
+Emwm*activeForeground:	active_fg
+
+!!Emwm*clientAutoPlace:	True
