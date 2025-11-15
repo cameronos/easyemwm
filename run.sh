@@ -21,7 +21,7 @@ echo "Installing Xorg and some apps, if haven't already"
 sudo apt install -y xorg x11-apps
 
 echo "Installing Motif/OpenMotif development libraries"
-sudo apt install -y libmotif-dev libxm4 libxm-dev
+sudo apt install -y libmotif-dev libxm4
 
 echo "Installing helpful tools for grabbing repo"
 sudo apt install -y git curl
