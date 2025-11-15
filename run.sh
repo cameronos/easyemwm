@@ -36,6 +36,11 @@ clear
 echo "Proceeding into dir, making and hopefully running"
 cd emwm
 sudo make
+
+#Copying over emwmrc menu
+sudo cp src/system.emwmrc ~/.emwmrc
+
+#Pushing emwm to /usr/bin
 sudo install -m 755 src/emwm /usr/bin/emwm
 cd ..
 pwd
