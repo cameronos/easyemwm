@@ -40,7 +40,7 @@ sudo install -m 755 src/emwm /usr/bin/emwm
 cd ..
 pwd
 
-"Cleaning post-directory make"
+echo "Cleaning post-directory make"
 sudo rm -rf emwm/
 sleep 1
 
