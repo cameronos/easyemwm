@@ -17,7 +17,7 @@ echo "Installing build tools"
 sudo apt install -y build-essential cmake automake autoconf libtool pkg-config
 
 echo "Installing x11 development libraries"
-sudo apt install -y libx11-dev libxt-dev libxext-dev libxrandr-dev libxinerama-dev
+sudo apt install -y libx11-dev libxt-dev libxext-dev libxrandr-dev libxinerama-dev libxpm-dev
 
 echo "Installing Xorg and some apps, if haven't already"
 sudo apt install -y xorg x11-apps xterm
